@@ -9,8 +9,11 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "single-spa-vue": "^1.5.2",
+    "systemjs-webpack-interop": "^1.1.0",
     "vue": "^2.6.11",
-    "vue-router": "^3.2.0"
+    "vue-router": "^3.2.0",
+    "vuetify": "^2.3.4"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.4.0",
@@ -19,12 +22,16 @@
     "@vue/cli-service": "~4.4.0",
     "@vue/eslint-config-airbnb": "^5.0.2",
     "babel-eslint": "^10.1.0",
+    "deepmerge": "^4.2.2",
     "eslint": "^6.7.2",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-vue": "^6.2.2",
+    "fibers": "^5.0.0",
     "lint-staged": "^9.5.0",
-    "sass": "^1.26.5",
+    "sass": "^1.26.10",
     "sass-loader": "^8.0.2",
+    "vue-cli-plugin-single-spa": "~1.1.2",
+    "vue-cli-plugin-vuetify": "~2.0.6",
     "vue-template-compiler": "^2.6.11"
   },
   "gitHooks": {
